@@ -1,0 +1,146 @@
+body{
+    zoom: 0%;
+    background-color: #1E1E1E;
+    color: rgb(255, 255, 255);
+}
+.container{
+   display: grid;
+   grid-gap:20px;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr;
+   width: 500px;
+   height: 900px;
+   margin: auto;
+   margin-bottom: 30px;
+}
+.container_hijo1{
+    display: grid;
+    background-color: #1E1E1E;
+    grid-gap:10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 500px;
+    height: 300px;
+}
+.container_hijo2{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-gap:3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.container_hijo2>button{
+    display: grid;
+    background:  #1E1E1E;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.container_hijo2>button:hover{
+    background-color: #0b1b57;
+}
+.container_hijo1>div{
+    font-size: 20px;
+    text-align: center;
+}
+.container_hijo1>#contenedorDelEstado{
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    width: 500px;
+    height: 80px;
+    border: 5px solid rgb(106, 57, 121) ;
+}
+#equi2{
+    width: 60px;
+    height: 60px;
+    margin:auto;
+}
+.volverAJugar{
+    background:  #0e1b48;
+    height: 70px;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+#equi1{
+   width: 60px;
+   height: 60px;
+   margin:auto;
+}
+.container_hijo1>div>#textodemierda{
+    font-size: 45px;
+}
+#puntosDeJugadores{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#equi111{
+    width: 60px;
+    height: 60px;
+    margin:auto;
+}
+#equi222{
+    width: 60px;
+    height: 60px;
+    margin:auto;
+}
+#div1{
+    border-right: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#div2{
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#div3{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#div4{
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#div5{
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#div6{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#div7{
+    border-right: 2px solid rgb(255, 255, 255);
+}
+#div8{
+    border-right: 2px solid rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 100px) and (max-width: 200px){
+    body{
+        zoom: 50%;
+    }
+}
+@media screen and (min-width: 201px) and (max-width: 400px){
+    body{
+        zoom: 55%;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 600px){
+    body{
+        zoom: 60%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 700px){
+    body{
+        zoom: 70%;
+    }
+}
